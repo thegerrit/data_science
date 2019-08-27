@@ -1,7 +1,5 @@
 # CMPS 3360-02 - Introduction to Data Science - Fall 2019
 
-
- uu
 **Instructor:** [Nicholas Mattei](http://www.nickmattei.net/)
 
 **Lectures:** Tuesday / Thursday 1100-1215, Stanley Thomas 302
