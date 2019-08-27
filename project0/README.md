@@ -48,7 +48,9 @@ Repositories hosted on github for free accounts are public; however, you can eas
 
 ## Docker
 
-Docker is a software technology providing `containers`, that provides an additional layer of abstraction and automation of operating-system-level `virtualization` on Windows and Linux. Here is a nice introductory blog post that describes virtualization and containers: https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b. Briefly speaking, a virtual machine (VM) is an emulation of an (`guest`) operating system on a computer (with potentially a different `host` operating system). Linux is the most common guest OS that is used, especially since Apple and Microsoft make it difficult to emulate their OSes. `Containers` look like a VM, but share the host kernel (if possible) to be more efficient, both in terms of the memory used and the slowdown.
+Docker is a software technology providing `containers`, that provides an additional layer of abstraction and automation of operating-system-level `virtualization` on Windows and Linux. Here is a nice introductory blog post that describes virtualization and containers: https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b. 
+
+Briefly speaking, a virtual machine (VM) is an emulation of an (`guest`) operating system on a computer (with potentially a different `host` operating system). Linux is the most common guest OS that is used, especially since Apple and Microsoft make it difficult to emulate their OSes. `Containers` look like a VM, but share the host kernel (if possible) to be more efficient, both in terms of the memory used and the slowdown.
 
 Docker is perhaps the most popular container technology at this time, and is widely used to package and ship applications. There are many pre-existing `images` that can be pulled from https://hub.docker.com/ (or elsewhere) to quickly install and run different software (as you will see below).
 
@@ -56,16 +58,15 @@ Docker is perhaps the most popular container technology at this time, and is wid
 - Follow the appropriate `Getting Started` guide to make sure that Docker is working as expected.
 	- Macs: https://docs.docker.com/docker-for-mac/
 	- Windows: https://docs.docker.com/docker-for-windows/
-- We will use the `Jupyter Notebook Data Science Stack` for now. You can start it using the following command in the commandline -- replace PWD with the path to the git directory. More detailed description of the image is available at: https://hub.docker.com/r/jupyter/datascience-notebook/
-	- docker run -it -v PWD/project0:/home/jovyan/notebooks  --rm -p 8888:8888 jupyter/datascience-notebook
+- We will use the `Jupyter Notebook Data Science Stack` for now. You can start it using the following command in the command line -- replace PWD with the path to the git directory. More detailed description of the image is available at: https://hub.docker.com/r/jupyter/datascience-notebook/
+	- docker run -it -v PWD/project0:/home/jovyan/notebooks --rm -p 8888:8888 jupyter/datascience-notebook
 - Quick explanation of the above command (don't worry if you don't follow this right now):
 	- `-p 8888:8888` maps the 8888 port on the host OS to the 8888 port on the guest container. So if you were to go to http://localhost:8888, it will redirect to the 8888 port on the container - Jupyter Notebook starts a web server on that port on the guest.
-	- `-v PWD/project0:/home/jovyan/notebooks` mounts the current project0 directory on the guest, so that everything in project0 directry will be available in `notebooks` directory on the guest.
-	- `jupyter/datascience-notebook` tells docker which image to pull from the Docker Hub. The first time you do this, it will take a few minutes to download everything it needs.
+	- `-v PWD/project0:/home/jovyan/notebooks` mounts the current project0 directory on the guest OS, so that everything in project0 directory will be available in `notebooks` directory on the guest.
+	- `jupyter/datascience-notebook` tells docker which image to pull from the Docker Hub. The first time you do this, it will take a few minutes (go grab a drink) to download everything it needs.  **Note that the download is several gigs so you will want to be on a fast, i.e., school, network if possible.**
 - Once everything is initialized and the notebook starts, you can connect it to by opening your web browser and going to: http://localhost:8888/tree?token=279fb5e0fc0f240a90f913e7b9c9c068f36543a7d9544663  --- the `token` will be different for you. Look for it in the output of the command above.
 
-
-### Python and Jupyter/IPython
+## Python and Jupyter/IPython
 
 We will be using Python for most of the assignments. Python is easy to pick up, and we will also provide skeleton code for most of the assignments. 
 
@@ -81,4 +82,4 @@ Use the command listed above to start a docker container with Jupyter. On your l
 
 ### Assignment 
 
-Complete the function in `Project 0 Assignment` Notebook, and upload the `Project 0 Assignment.ipynb` file to ELMS.
+Complete the function in `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas.
