@@ -66,6 +66,10 @@ Docker is perhaps the most popular container technology at this time, and is wid
 	- `jupyter/datascience-notebook` tells docker which image to pull from the Docker Hub. The first time you do this, it will take a few minutes (go grab a drink) to download everything it needs.  **Note that the download is several gigs so you will want to be on a fast, i.e., school, network if possible.**
 - Once everything is initialized and the notebook starts, you can connect it to by opening your web browser and going to: http://localhost:8888/tree?token=279fb5e0fc0f240a90f913e7b9c9c068f36543a7d9544663  --- the `token` will be different for you. Look for it in the output of the command above.
 
+**Note:** You can just install Anaconda or Python3 yourself and develop there if you wish.  However, you should ensure any code you run works on a Docker installation as described above.
+
+**NoteII:** The above will not work on Windows 10 Home -- in that case you need to use Docker Toolkit.  The instructions remain the same but you need to downloadn the files here: <https://docs.docker.com/toolbox/toolbox_install_windows/>
+
 ## Python and Jupyter/IPython
 
 We will be using Python for most of the assignments. Python is easy to pick up, and we will also provide skeleton code for most of the assignments. 
