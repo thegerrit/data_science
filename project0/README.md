@@ -59,8 +59,8 @@ Docker is perhaps the most popular container technology at this time, and is wid
 	- Macs: https://docs.docker.com/docker-for-mac/
 	- Windows: https://docs.docker.com/docker-for-windows/
 	- **Note:** If you have Windows 10 Home you need to use [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/) which you can find the installation instructions for here: .  If you are having trouble mounting your filesystem in Docker Toolbox for Windows please go over [this troubleshooting guide](https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572).
-- We will use the `Jupyter Notebook Data Science Stack` for now. You can start it using the following command in the command line -- **replace PWD with the path to the git directory on your machine!** if you do not do this your `notebook` folder on the Docker image will be empty. More detailed description of the image is available at: https://hub.docker.com/r/jupyter/datascience-notebook/
-	- docker run -it -v PWD/project0:/home/jovyan/notebooks --rm -p 8888:8888 jupyter/datascience-notebook
+- We will use the `Jupyter Notebook Data Science Stack` for now. You can start it using the following command in the command line -- **replace PATH with the path to where you have saved or checked out the git repository on your machine!** if you do not do this your `notebook` folder on the Docker image will be empty. More detailed description of the image is available at: https://hub.docker.com/r/jupyter/datascience-notebook/
+	- docker run -it -v PATH/project0:/home/jovyan/notebooks --rm -p 8888:8888 jupyter/datascience-notebook
 - Quick explanation of the above command (don't worry if you don't follow this right now):
 	- `-p 8888:8888` maps the 8888 port on the host OS to the 8888 port on the guest container. So if you were to go to http://localhost:8888, it will redirect to the 8888 port on the container - Jupyter Notebook starts a web server on that port on the guest.
 	- `-v PWD/project0:/home/jovyan/notebooks` mounts the current project0 directory on the guest OS, so that everything in project0 directory will be available in `notebooks` directory on the guest.
@@ -68,8 +68,6 @@ Docker is perhaps the most popular container technology at this time, and is wid
 - Once everything is initialized and the notebook starts, you can connect it to by opening your web browser and going to: http://localhost:8888/tree?token=279fb5e0fc0f240a90f913e7b9c9c068f36543a7d9544663  --- the `token` will be different for you. Look for it in the output of the command above.
 
 **Note:** You can just install Anaconda or Python3 yourself and develop there if you wish.  However, you should ensure any code you run works on a Docker installation as described above.
-
-**NoteII:** The above will not work on Windows 10 Home -- in that case you need to use Docker Toolkit.  The instructions remain the same but you need to downloadn the files here: <https://docs.docker.com/toolbox/toolbox_install_windows/>
 
 ## Python and Jupyter/IPython
 
@@ -88,3 +86,8 @@ Use the command listed above to start a docker container with Jupyter. On your l
 ### Assignment 
 
 Complete the function in `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas.
+
+### Grading Rubric
+
+* 10 Points: Project runs on the correct Docker Image.
+* 15 Points: Function is implemented and correct.  There are many right answers but we will take points if you do it extremely inefficiently.
