@@ -20,9 +20,8 @@ This list is just to give you some ideas.  Please feel free to scrape websites (
 * [Data.Gov](https://www.data.gov/): US-centric agriculture, climate, education, energy, finance, health, manufacturing data, and more.
 * [BigQuery (Google Cloud)](https://cloud.google.com/bigquery/public-data/) public datasets (bikeshare, GitHub, Hacker News, NOAA,...) and many more.
 * [Kaggle Competition Datasets](https://www.kaggle.com/datasets) Billboard Top 100 lyrics, credit card fraud, crime in Chicago, global terrorism, world happiness, etc...
-* [Amazon AWS Public Data](https://aws.amazon.com/public-datasets/) AWS-hosted, various (NASA, a bunch of genome stuff, Google Books n-grams, Multimedia Commons, etc.
-* [Data is Plural](https://tinyletter.com/data-is-plural
-https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/)Lots of interesting and strange datasets in a Google spreadsheed.
+* [Amazon AWS Public Data](https://aws.amazon.com/public-datasets/) AWS-hosted, various (NASA, a bunch of genome stuff, Google Books n-grams, Multimedia Commons, etc.)
+* [Data is Plural](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0)Lots of interesting and strange datasets in a Google spreadsheed.
 * [Corgies Datasets](https://think.cs.vt.edu/corgis/) Curated set of data from Virginia Tech.
 * [GitHub Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) list of datasets that are open and public around the Internet.
 * [Think Stats Datasets](https://docs.google.com/spreadsheets/d/e/2PACX-1vQlv2BpO7TsU2UAE7iQwCUxvxn9LTXEPPj5EnA0l9-DJSwCDZU0xg_IhWBItZ7bNvZ_BnznuOrYYy0i/pubhtml) list of interesting datasets from a class very much like this one.
@@ -59,8 +58,8 @@ You (and your partner) will give a 7-10 minute presentation in class.  In this p
 
 ## Scoring Rubric (50 Points)
 
-* Professionalism: Are the slides well constructed?  Are the graphs labeled and clear.
-* Organization: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are.  You should address each stage of the DataScience LifeCycle in this talk.
+* Professionalism: Are the slides well constructed?  Are the graphs labeled and clear?
+* Organization: Was the talk clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle in this talk.
 * Motivation: Does the talk make the reader believe the topic is important (a) in general and (b) with respect to data science?
 
 ---
