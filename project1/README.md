@@ -1,6 +1,6 @@
 # Project 1
 
-**Posted:** September 16, 2019; 
+**Posted:** September 16, 2019; <br>
 **Due:** October 15, 2019
 
 You've been hired by a new space weather startup looking to disrupt the space weather reporting business. Your first project is to provide better data about the top 50 solar flares recorded so far than that shown by your competitor [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares). To do this, they've pointed you to [this messy HTML page](http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html) from NASA ([available here also](http://www.hcbravo.org/IntroDataSci/misc/waves_type2.html)) where you can get the extra data your startup is going to post in your new spiffy site.
@@ -55,7 +55,7 @@ rank x_class date region start_time max_time end_time movie
 
 **You must have this table displayed in your final notebook when you submit it.**
 
-### Step 2: Tidy the Top 50 Solar Flare Data (10 pts)
+### Step 2: Tidy the Top 50 Solar Flare Data (15 pts)
 
 Your next step is to make sure this table is usable using pandas:
 
@@ -245,7 +245,7 @@ start_datetime  end_datetime start_frequency end_frequency flare_location flare_
 
 Now that you have data from both sites, let’s start some analysis.
 
-### Question 1: Replication (10 pts)
+### Question 1: Replication (15 pts)
 
 Can you replicate the top 50 solar flare table in [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares) exactly using the data obtained from NASA? That is, if you get the top 50 solar flares from the NASA table based on their classification (e.g., X28 is the highest), do you get data for the same solar flare events?
 
@@ -257,7 +257,7 @@ Write a function that finds the best matching row in the NASA data for each of t
 
 In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. Finally, use your function to add a new column to the NASA dataset indicating its rank according to SpaceWeatherLive, if it appears in that dataset.
 
-### Question 3: Analysis Plot (10 pts)
+### Question 3: Analysis Plot (15 pts)
 
 Prepare one plot that shows the top 50 solar flares in context with all data available in the NASA dataset. Here are some possibilities (you can do something else)
 
