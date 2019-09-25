@@ -37,6 +37,8 @@ These instructions are also given directly on the front page of <https://pages.g
 
 You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a clickable link to the webpage and the webpage must be live**.  If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.
 
+In order to make your webpage open up the notebook and make sure everything is as you like it (cells run, no error messages, etc.).  Then go to File>>Download As>> and download the notebook as HTML.  This will save the HTML files to your disk.  You will then need to rename this to index.html and upload it into your github.io page.  Once this is done, navigate to `username.github.io` and make sure the notebook is displayed as you like!
+
 ### Scoring Rubric (25 Points)
 * 10 Points: Website is up, link was submitted on time.
 * 15 Points: Project plan is in place, relevant data is identified, there are draft questions.
