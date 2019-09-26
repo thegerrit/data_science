@@ -41,7 +41,7 @@ In order to make your webpage open up the notebook and make sure everything is a
 
 ### Scoring Rubric (25 Points)
 * 10 Points: Website is up, link was submitted on time.
-* 15 Points: Project plan is in place, relevant data is identified, there are draft questions.
+* 15 Points: Project plan is in place, relevant data is identified, there are draft questions or hypothesis that the student is going to explore.
 
 ---
 
