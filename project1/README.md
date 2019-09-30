@@ -59,7 +59,7 @@ Your next step is to make sure this table is usable using pandas:
 2.  Use the `datetime` library (you need to import it) to combine the date and each of the three time columns into three datetime columns. You will see why this is useful later on.  
   * [Pandas iterrows()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iterrows.html) should prove useful here. 
   * **Make sure to check the dtype of the column when you are done! [Pandas to_datetime](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html) comes in useful here.**
-  * **Hint:** Python has some functions that can help including [datetime.isoformat](https://docs.python.org/3/library/datetime.html#datetime.datetime.isoformat)
+  * **Hint:** Check out the [Pandas to_datetime function](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html) for some help!
 3.  Update the values in the dataframe as you do this.  The [Pandas function .at](https://pandas.pydata.org/pandas-docs/version/0.25/reference/api/pandas.DataFrame.at.html) should prove useful.
 4.  Set regions coded as - as missing (np.nan). You can use dataframe.replace() here.  
   * **Note: There may be none of these, look at your data!**
@@ -138,6 +138,7 @@ Notes
 2.  Use `str.split` and list comprehensions or similar to separate each line of text into a data row. Choose appropriate names for columns.
   * **Hint**: Try using regular expressions like we did in class to remove the links around the numbers if possible before parsing the records.  Also recall how to make a DataFrame from a list of dicts!
   * **Hint:** It can be awfully handy to have a [python regular expression checker around](https://pythex.org/).
+  * **Alt. Hint:** You may also want to look into the [Beautiful Soup get_text](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#get-text) method.
 3.  Create a DataFrame of the information you have so far.  You can drop the column with links to the plots.
 
 ```
