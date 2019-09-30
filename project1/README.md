@@ -136,7 +136,8 @@ Notes
 
 1.  Use BeautifulSoup functions (e.g., find, findAll) and string functions (e.g., [python str.split](https://docs.python.org/3/library/stdtypes.html#str.split) and built-in array slicing capabilities) to obtain each row of data as a long string.
 2.  Use `str.split` and list comprehensions or similar to separate each line of text into a data row. Choose appropriate names for columns.
-  * **HINT**: Try using regular expressions like we did in class to remove the links around the numbers if possible before parsing the records.  Also recall how to make a DataFrame from a list of dicts!
+  * **Hint**: Try using regular expressions like we did in class to remove the links around the numbers if possible before parsing the records.  Also recall how to make a DataFrame from a list of dicts!
+  * **Hint:** It can be awfully handy to have a [python regular expression checker around](https://pythex.org/).
 3.  Create a DataFrame of the information you have so far.  You can drop the column with links to the plots.
 
 ```
