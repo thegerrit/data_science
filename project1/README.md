@@ -234,6 +234,8 @@ Prepare one plot that shows the top 50 solar flares that you were able to match 
 
 **Display your graph and make sure the labels and axes are informative!**
 
+----
+
 ## Submission
 
 Prepare an Jupyter Notebook file that includes for each step in Part 1: 
