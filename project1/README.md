@@ -16,7 +16,7 @@ Of course, you don't have access to the raw data for either of these two tables,
 Use Python to scrape data for the top 50 solar flares shown in [SpaceWeatherLive.com](https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares). Steps to do this are:
 
 1.  `pip install` or `conda install` the following Python packages: `beautifulsoup4, requests, pandas, numpy, lxml`
-   * **Note:** these are already in the environment if you are using Docker.
+   * **Note:** There is a bit of an issue using Docker.  The easiest way around this is to manually install lxml when you start the notebook server.  You can either add the command `!pip3 install lxml` into your notebook or in the Notebook window open a termainl window and run the same command in the terminal.  Note you'll have to do this each time you (re)start Docker.
 2.  Use `requests` to get (as in, HTTP GET) the URL.
 3.  Extract the text from the page.
 4.  Use BeautifulSoup to read and parse the data, either as html or lxml.
