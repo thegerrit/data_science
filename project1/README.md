@@ -211,15 +211,17 @@ Include code used to get the top 50 solar flares from the NASA table (be careful
 
 ### Question 2: Integration (15 pts)
 
-Write a function that finds the best matching row in the NASA data for each of the top 50 solar flares in the SpaceWeatherLive data. Here, you have to decide for yourself how you determine what is the best matching entry in the NASA data for each of the top 50 solar flares.
+Write a function that finds the best matching row in the NASA data for each of the top 50 solar flares in the SpaceWeatherLive data **and assigns a rank value to that entry in the NASA table**. Here, you have to decide for yourself how you determine what is the best matching entry in the NASA data for each of the top 50 solar flares.
 
 **Hint: You may want to look at multiple pieces of data before deciding if a flare matches.**
 
-In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. Finally, use your function to add a new column to the NASA dataset indicating its rank according to SpaceWeatherLive, if it appears in that dataset.
+In your submission, include an explanation of how you are defining best matching rows across the two datasets in addition to the code used to find the best matches. 
+
+**Use your function to add a new column to the NASA dataset indicating its rank according to SpaceWeatherLive, if it appears in that dataset.**
 
 **Hint: You may not end up with all the ranks!**
 
-**At the end of this section display only flares in the NASA table you could rank**
+**At the end of this section display only flares in the NASA table that you could rank.**
 
 ### Question 3: Analysis Plot (15 pts)
 
