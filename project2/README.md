@@ -26,9 +26,9 @@ A fun side note, [Michael Lewis](https://en.wikipedia.org/wiki/Michael_Lewis) is
 
 You will be using data from a very useful database on baseball teams, players and seasons curated by Sean Lahman available at [http://www.seanlahman.com/baseball-archive/statistics/](http://www.seanlahman.com/baseball-archive/statistics/). The database has been made available as a `sqlite` database [https://github.com/jknecht/baseball-archive-sqlite](https://github.com/jknecht/baseball-archive-sqlite). `sqlite` is a light-weight, file-based database management system that is well suited for small projects and prototypes.
 
-You can read more about the dataset here: [http://seanlahman.com/files/database/readme2016.txt](http://seanlahman.com/files/database/readme2016.txt).
+You can read more about the dataset here: [http://seanlahman.com/files/database/readme2014.txt](http://seanlahman.com/files/database/readme2014.txt).
 
-You can download the `sqlite` file directly from github at [https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2016.sqlite](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2016.sqlite).
+You can download the `sqlite` file directly from github at [https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2014.sqlite](https://github.com/jknecht/baseball-archive-sqlite/blob/master/lahman2014.sqlite).
 
 You will be accessing the `sqlite` database in python using the [sqlite package](https://docs.python.org/3/library/sqlite3.html). This package provides a straightforward interface to extract data from `sqlite` databases using standard SQL commands.
 
@@ -77,7 +77,7 @@ The data you need to answer these questions is in the Salaries and Teams tables 
 
 Include as a cell the SQL code you used to create this relation. As a markdown cell, describe how you dealt with any missing data in these two relations. Specifically, indicate if there is missing data in either table, and how the type of join you used determines how you dealt with this missing data. 
 
-**You must display the head of the resulting data table in your notebook.**
+**You must display the head of the resulting data table in your notebook.  You should also display the results of one team over the time range to make sure your data is correct.**
 
 **Hint:** For SQL you have to be mindful of integer vs. float division.  See the above tutorial on how to deal with this.
 
@@ -88,6 +88,8 @@ Include as a cell the SQL code you used to create this relation. As a markdown c
 #### Problem 2
 
 Write code to produce *a plot* that illustrate the distribution of payrolls across teams conditioned on time (from 1990-2016).  This plot should be clear and interpretable.
+
+Write code to produce *a scatter plot* that shows winning percentage as a function of total payroll.  That is, the total payroll on the x-axis and win percentage is on the y axis.
 
 #### Question 1
 
@@ -111,7 +113,7 @@ Label each point with the team or franchise [using something like this](https://
 
 #### Question 2
 
-What can you say about team payrolls across these periods? Are there any teams that standout as being particularly good at paying for wins across these time periods? What can you say about the Oakland A's spending efficiency across these time periods.
+What can you say about team payrolls across these periods? Are there any teams that standout as being particularly good at paying for wins across these time periods? What can you say about the Oakland A's spending efficiency across these time periods and specifically in the Moneyball period of 2000-2005.
 
 ## Part 3: Data Transformations
 
@@ -121,7 +123,7 @@ It looks like comparing payrolls across years is problematic so let's do a trans
 
 #### Problem 5
 
-Create a new variable in your dataset that standardizes payroll conditioned on year. So, this column for team `i` in year `j` should equal:
+Create a new variable in your dataset that standardizes payroll conditioned on year.  For this we will compute the [Z-score of the variables](https://en.wikipedia.org/wiki/Standard_score). So, this column for team `i` in year `j` should equal:
 
 <!--
 ```
@@ -135,13 +137,17 @@ for team `i` in year `j`.
 
 where <!--<em><span style="text-decoration: overline">payroll</span><sub>j</sub></em>--> <em>avg\_payroll<sub>j</sub></em> is the average payroll for year `j`, and <em>s<sub>j</sub></em> is the standard deviation of payroll for year `j`.
 
+You must display the head of this DataFrame in your notebook to receive credit.
+
+**Hint: Recall our lab on filtering and transforming data!  You may also want to check out the [Transform function](https://pandas.pydata.org/pandas-docs/stable/user_guide/groupby.html)**
+
 #### Problem 6
 
-Repeat the same plots as Problem 4, but use this new standardized payroll variable.
+Repeat the same plots as Problem 4, but use this new standardized payroll variable.  Remember that you should have one plot for each of the 5 time periods.
 
 #### Question 3
 
-Discuss how the plots from Problem 4 and Problem 6 reflect the transformation you did on the payroll variable.
+Discuss how the plots from Problem 4 and Problem 6 reflect the transformation you did on the payroll variable.  Specifically, what is easier to see, what is harder to see?  Are any relationships more apparent?
 
 ### Expected Wins
 
@@ -149,7 +155,7 @@ It's hard to see global trends across time periods using these multiple plots, b
 
 #### Problem 7
 
-Make a single scatter plot of winning percentage (y-axis) vs. standardized payroll (x-axis). Add a regression line to highlight the relationship.
+Make a **single scatter plot** of winning percentage (y-axis) vs. standardized payroll (x-axis). Add a regression line to highlight the relationship.  You do not need to label the teams in this plot.
 
 The regression line gives you expected winning percentage as a function of standardized payroll. Looking at the regression line, it looks like teams that spend roughly the average payroll in a given year will win 50% of their games (i.e. win\_pct is 50 when standardized\_payroll is 0), and teams increase 5% wins for every 2 standard units of payroll (i.e., win\_pct is 55 when standardized\_payroll is 2). We will see how this is done in general using linear regression later in the course.
 
