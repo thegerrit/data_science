@@ -11,7 +11,7 @@ In the interest of building students' public portfolios, and in the spirit of "l
 
 ----
 
-## Milestone 1: Groups, Data, and Website
+## Milestone 1: Groups, Data, and Website - Oct. 15, 2019.
 
 For Milestone 1 you should generate a roughly 1 page writeup (500 words) listing a partner (if any) and one to three datasets that you are considering working with and why.  This is just an outline to make sure you are thinking.  This will be published on your GitHub IO page so this also makes sure you’ve figured out how to get it uploaded!
 
@@ -52,7 +52,7 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 
 ----
 
-## Milestone 2: Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA)
+## Milestone 2: Extraction, Transform, and Load (ETL) + Exploratory Data Analysis (EDA) - Nov. 12, 2019.
 
 Your notebook from Part 1 but expanded to include the data being loaded and parsed into shape using the principles of tidy data discussed in class. This is to show that you have figured out how to get the data into your system.
 
@@ -74,7 +74,7 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 
 ---
 
-## Deliverable 1: Final Presentation
+## Deliverable 1: Final Presentation - Dec. 3 & 5, 2019.
 
 You (and your partner) will give a 7-10 minute presentation in class.  In this presentation you are role playing a bit -- your job is to convince the audience that the problem you investigated was interesting and meaningful.  Furthermore, you should give some detail of the analysis and you should make specific policy or outcome recommendations as the conclusion of your analysis.
 
@@ -92,11 +92,13 @@ Some resources for giving a good talk:
 
 ### Submission
 
-You should submit your slides through [Canvas](https://tulane.instructure.com/) before the end of the day on which you present. If you do this in a group, both students must submit the notebook through Canvas but it should be the same set of slides.  If you do not sign in for class these days and engage with the discussion you will not receive points for the Peer Evaluation section.
+You should submit your slides through [Canvas](https://tulane.instructure.com/) as a PDF before the end of the day on which you present. If you do this in a group, both students must submit the notebook through Canvas but it should be the same set of slides.  **If you do not sign in for class these days and engage with the discussion you will not receive points for the Peer Evaluation section.**
+
+*If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.  Both students should have the same data uploaded to the site.*
 
 ---
 
-## Deliverable 2: Final Tutorial
+## Deliverable 2: Final Tutorial - Dec. 8. 2019.
 
 In general, the tutorial should contain at least 1500 words of prose and 150 lines of (nonpadded, legitimate) Python code, along with appropriate documentation, visualization, and
 links to any external information that might help the reader.
@@ -118,7 +120,9 @@ Some example tutorials from a similar class at the University of Maryland are:
 
 ### Submission
 
-You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a clickable link to the webpage and the webpage must be live**.  If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.  Both students should have the same data uploaded to the site.
+You should submit the notebook through [Canvas](https://tulane.instructure.com/).  The first cell of your notebook in the markdown **must be a clickable link to the webpage and the webpage must be live**.  That is: the first cell of your notebook must be a markdown cell with a hyperlink to the generated webpage up at `yourname.github.io`.  If this is not correct you will lose points.
+
+*If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.  Both students should have the same data uploaded to the site.*
 
 **Note:** If the dataset you are using is not available from a website then it must also be uploaded to your GitHub site.  If I cannot download the data to verify the code you have submitted you will lose points.
 
