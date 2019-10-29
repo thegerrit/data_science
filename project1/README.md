@@ -290,6 +290,8 @@ Submit the resulting .ipynb to [Canvas](https://tulane.instructure.com/)
   * Graphs are clean and well labeled.
   * Interpretation is reasonable and well written.
 
+* (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient. 
+
 * Total Score:
 
 ### Credits

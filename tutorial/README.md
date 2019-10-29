@@ -47,8 +47,8 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 *If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.  Both students should have the same data uploaded to the site.*
 
 ### Scoring Rubric (25 Points)
-* 10 Points: Website is up, link was submitted on time.
-* 15 Points: Project plan is in place, relevant data is identified, there are draft questions or hypothesis that the student is going to explore.
+* 10 Points: Website is up, link was submitted and is correct.  Notebook is professional and clean, the names of the group members, a title for the project, and other good practices as this is *publicly posted*.
+* 15 Points: Project plan is in place, relevant data is identified and links are provided, there are draft questions or hypothesis that the student is going to explore.
 
 ----
 
@@ -68,7 +68,7 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 
 ### Scoring Rubric (50 Points)
 
-* 10 Points: Website is up, link was submitted on time, and writing is present as an extension to the previous notebooks.
+* (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.
 * 20 Points: Data set(s) are loaded correctly using web scraping or other techniques.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly, columns are appropriate, etc.
 * 20 points: Graphs are present in the notebook along with appropriate markdown cells explaining the meaning of the graphs and interpretations.
 

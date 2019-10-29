@@ -205,18 +205,18 @@ Note that code that does not work will not be graded and you will receive a 0 fo
 
 * Part 1 Wrangling (10 Points)
   * Documentation and markdown cells are used to explain your work.
+  * (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  
   * (10 Points) Problem 1: You used a single SQL query and display the correct dataset.
-  * Code is reasonable and correct.
   * Discussion of how missing data is dealt with is present.
  * Part 2 Exploratory Data Analysis (40 Points)
    * (10 Points) Problem 2: You have produced the a plot to show the distribution of payrolls across time.
    * (5 Points) Question 1: There is a markdown cell explaining the statements about this plot and the statements are reasonable.
-   * (10 Points) Problem 3: A plot exists and is well labeled to support the statements.
+   * (5 Points) Problem 3: A plot exists and is well labeled to support the statements.
    * (10 Points) Problem 4: Code is present to discretize the data into 5 time periods.  Plot is present of winning percentage as a function of mean payroll.
    * (5 Points) Question 2: Markdown cell explains results for Question 2 about trends over time.
 * Part 3 Data Transformations (50 Points)
   * (10 Points) Problem 5: Code is present to achieve standardized payroll and is reasonable and correct.
-  * (10 Points) Problem 6: Plots are present that compare the old and new payroll variables.
+  * (5 Points) Problem 6: Plots are present that compare the old and new payroll variables.
   * (5 Points) Question 3: Markdown cell addresses differences between Problem 4 and Problem 6.
   * (10 Points) Problem 7: plot and regression line are present and code is correct and reasonable.
   * (10 Points) Problem 8: Code and plot are present and correct to measure the spending efficiency.
