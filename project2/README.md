@@ -87,7 +87,7 @@ Include as a cell the SQL code you used to create this relation. As a markdown c
 
 #### Problem 2
 
-Write code to produce *a plot* that illustrate the distribution of payrolls across teams conditioned on time (from 1990-2016).  This plot should be clear and interpretable.
+Write code to produce *a plot* that illustrate the distribution of payrolls across teams conditioned on time (from 1990-2014).  This plot should be clear and interpretable.
 
 Write code to produce *a scatter plot* that shows winning percentage as a function of total payroll.  That is, the total payroll on the x-axis and win percentage is on the y axis.
 
