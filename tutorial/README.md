@@ -69,8 +69,8 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 ### Scoring Rubric (50 Points)
 
 * (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.
-* 20 Points: Data set(s) are loaded correctly using web scraping or other techniques.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly, columns are appropriate, etc.
-* 20 points: Graphs are present in the notebook along with appropriate markdown cells explaining the meaning of the graphs and interpretations.
+* (20 Points) *Data Collection*: Data set(s) are loaded correctly using web scraping or other techniques.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly, columns are appropriate, etc.
+* (20 Points) *EDA:* Graphs are present in the notebook along with appropriate markdown cells explaining the meaning of the graphs and interpretations.
 
 ---
 
